@@ -32,6 +32,7 @@
   "name":"pi",
   "resources":[
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
+    {"id":{"name":"pinto","path":"objects/pinto/pinto.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Player_front_idle","path":"sprites/Player_front_idle/Player_front_idle.yy",},},
   ],
