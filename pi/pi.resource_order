@@ -28,8 +28,8 @@
     {"name":"Particle Systems","order":2,"path":"folders/Fase 4 - Sabrina/Particle Systems.yy",},
     {"name":"Scripts","order":3,"path":"folders/Fase 4 - Sabrina/Scripts.yy",},
     {"name":"Sprites","order":4,"path":"folders/Fase 4 - Sabrina/Sprites.yy",},
-    {"name":"Todas_as_fases","order":6,"path":"folders/Todas_as_fases.yy",},
     {"name":"Tela_inicial","order":5,"path":"folders/Tela_inicial.yy",},
+    {"name":"Todas_as_fases","order":6,"path":"folders/Todas_as_fases.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_aviso_tela","order":9,"path":"objects/obj_aviso_tela/obj_aviso_tela.yy",},
