@@ -19,11 +19,13 @@ room_goto_next()
 
 
 
-// Distância máxima para poder interagir
-var dist_max = 400; // ajuste conforme seu jogo
+//mecanica da lixeira
+
+// Distância máxima para poder interagir com a lixeira
+var dist_max = 40; // ajuste conforme seu jogo
 
 // Procura a lixeira mais próxima
-var lix = instance_nearest(x, y, obj_agua);
+var lix = instance_nearest(x, y, obj_lixeira);
 
 // Verifica se existe uma lixeira e se o jogador está próximo
 if (lix != noone) {
@@ -31,8 +33,9 @@ if (lix != noone) {
       
         // Se o jogador apertar a tecla E
         if (keyboard_check_pressed(ord("E"))) {
-            balde_agua = 4; // limpa a variável
-            show_debug_message("Jogador e!");
+            coleta = 0; // limpa a variável
+            show_debug_message("Jogador esvaziou a coleta na lixeira!");
         }
     }
 }
+//mecanica do botao aparecer

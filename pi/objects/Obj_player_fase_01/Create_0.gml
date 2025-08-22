@@ -106,5 +106,5 @@ inicia_estado(estado_idle);
 //variável para passar de fase
 ecopontuacao = 0
 
-//variavel balde de agua
-balde_agua = 0
+//variavel de coleta de lixo
+coleta = 0
